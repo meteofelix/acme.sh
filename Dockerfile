@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM arm32v7/alpine
 
 RUN apk update -f \
   && apk --no-cache add -f \
