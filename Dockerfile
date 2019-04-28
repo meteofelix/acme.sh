@@ -1,4 +1,4 @@
-FROM arm32v7/alpine
+FROM arm64v8/alpine
 
 RUN apk update -f \
   && apk --no-cache add -f \
